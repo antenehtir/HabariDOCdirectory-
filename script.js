@@ -1,8 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Confirmation alert function
     function confirmRedirect(link, platformName) {
-        if (confirm(`You are about to be redirected to ${platformName}. Do you want to continue?`)) {
-            window.location.href = link;
+        if (window.innerWidth > 600) { // Confirmation for desktop only
+            if (confirm(`You are about to be redirected to ${platformName}. Do you want to continue?`)) {
+                window.location.href = link;
+            }
+        } else {
+            window.location.href = link; // Direct redirect on mobile
         }
     }
 
