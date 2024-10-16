@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://habaridoc.com/_next/image?url=%2Fdoctor1.jpg&w=1920&q=75');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    border-radius: 15px;
+    margin: 100px auto;
+    max-width: 800px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.content .button {
+    display: block;
+    margin: 15px auto;
+    padding: 15px 30px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.content .button:hover {
+    background-color: #e64a19;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #ff5722;
+}
+
+.footer p {
+    font-size: 16px;
+}
+
+.footer a {
+    color: #ff5722;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
